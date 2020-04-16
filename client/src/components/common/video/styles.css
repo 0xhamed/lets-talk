@@ -1,0 +1,21 @@
+.video_container {
+  max-height: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+.video_wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+video {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.hightlight {
+  border: 1px solid var(--secondary);
+}

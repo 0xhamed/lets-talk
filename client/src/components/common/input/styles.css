@@ -1,0 +1,55 @@
+.input_group {
+    position: relative;
+}
+
+.input {
+    width: 300px;
+    height: 20px;
+    outline: none;
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid var(--white);
+    color: var(--white);
+    padding: 15px 5px;
+    font-size: 16px;
+    transition: 500ms linear;
+}
+
+.placeholder {
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+    font-size: 14px;
+    z-index: -1;
+    transition: 300ms ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.input:focus+.placeholder, .place_up .placeholder {
+    transform: translateY(-25px);
+    left: 0
+}
+
+.place_up .input {
+    border-color: var(--secondary);
+}
+
+.invalid {
+    border-color: red;
+}
+
+input:-webkit-autofill {
+    animation-delay: 1s;
+    animation-name: autofill;
+    animation-fill-mode: both;
+}
+
+@keyframes autofill {
+    0%, 100% {
+        color: var(--white);
+        background: transparent;
+    }
+}

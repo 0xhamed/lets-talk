@@ -1,0 +1,25 @@
+.room_local_video .room_local_video_settings {
+    height: 35px;
+    font-size: 22px;
+    color: var(--white);
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    z-index: 3;
+    order: -1;
+    align-self: flex-end;
+}
+
+.room_local_video_settings span {
+    cursor: pointer;
+}
+
+.room_local_video_settings span:not(:last-child) {
+    margin-right: 10px;
+}
+
+.room_local_video_settings span:last-child {
+    margin-left: -5px;
+}

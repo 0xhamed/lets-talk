@@ -1,0 +1,86 @@
+:root {
+  --primary: #de5b53;
+  --secondary: #40e0e0;
+  --white: #e0e0e0;
+  --bg-color: #0b0f35;
+  --icon-size: 22px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--bg-color);
+  color: var(--white);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#root {
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+span {
+  padding: 0;
+}
+
+img {
+  border-radius: 3px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.unselectable, button, image {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.disabled, .disabled * {
+  color: #504f4f !important;
+  border-color: #504f4f !important;
+  background-color: transparent !important;
+  cursor: default !important;
+}
+
+.disabled *::before, .disabled *::after {
+  content: none !important;
+}

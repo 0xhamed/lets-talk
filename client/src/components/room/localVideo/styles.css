@@ -1,0 +1,17 @@
+.room_local_video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  max-height: 40vh;
+  z-index: 1;
+}
+
+.room_local_video video {
+  object-fit: fill;
+}
+
+.room_local_video .video_container {
+  height: 200px;
+  width: 150px;
+}

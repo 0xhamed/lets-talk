@@ -1,0 +1,26 @@
+.user_video {
+    overflow: hidden;
+}
+
+.user_settings {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px 10px;
+}
+
+.user_settings_icons {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+}
+
+.user_settings_icons span {
+    cursor: pointer;
+}

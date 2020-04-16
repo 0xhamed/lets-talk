@@ -1,0 +1,20 @@
+#join_form {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#join_form h2 {
+  font-size: 22px;
+  margin-bottom: -20px;
+}
+
+#join_form * {
+  margin-top: 30px;
+}
+
+#join_form button {
+  margin-top: 40px;
+}

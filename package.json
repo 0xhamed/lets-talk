@@ -1,0 +1,19 @@
+{
+  "name": "lets-talk-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd ./client && set HTTPS=true&&npm start",
+    "build": "cd ./client && npm run build",
+    "start": "node server",
+    "starta": "(cd ./client && npm run build) && (cd .. && node server/)"
+  },
+  "keywords": [],
+  "author": "Mohamed Hamed",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ioredis": "^4.16.1",
+    "socket.io": "^2.3.0"
+  }
+}

@@ -1,0 +1,36 @@
+.checkbox_group {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.checkbox_label {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.checkbox {
+  position: relative;
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  border: 2px solid var(--secondary);
+  transition: 200ms linear;
+}
+
+.checkbox::before {
+  content: '✔';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+  opacity: 0;
+  transition: opacity 200ms linear;
+}
+
+.checked::before {
+  opacity: 1 !important;
+}

@@ -1,0 +1,39 @@
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  text-align: inherit;
+  outline: none;
+  border-radius: 0;
+}
+
+.btn {
+  padding: 10px 30px;
+  cursor: pointer;
+  transition: 0.4s linear;
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+.btn_primary {
+  border: 1px solid var(--primary);
+}
+
+.btn_primary:hover {
+  background-color: var(--primary);
+}
+
+.btn_secondary {
+  border: 1px solid var(--secondary);
+}

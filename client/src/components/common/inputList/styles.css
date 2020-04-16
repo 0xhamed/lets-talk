@@ -1,0 +1,72 @@
+.input_list_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    height: 50px;
+    width: 300px;
+    background-color: var(--white);
+    color: black;
+    font-size: 18px;
+    position: relative;
+    text-align: left;
+}
+
+.input_list_container *:not(.input_list) {
+    cursor: pointer;
+}
+
+.input_list_arrow {
+    font-size: 25px;
+    padding-top: 7px;
+    margin-right: -7px;
+}
+
+.input_list_default {
+    font-weight: 500;
+    width: 90%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* #e0dede */
+
+.input_list {
+    position: absolute;
+    padding: 10px 20px;
+    top: 100%;
+    left: 0;
+    background-color: #e2e2e2;
+    border-top: 1px solid black;
+    text-align: left;
+    min-width: 100%;
+    overflow: hidden;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 300ms;
+    z-index: 1;
+}
+
+.input_list_item {
+    position: relative;
+    transition: all 200ms linear;
+}
+
+.input_list_item:hover {
+    transform: scale(1.02)
+}
+
+.divider:not(:last-child) {
+    height: 1px;
+    width: 100%;
+    background-color: var(--secondary);
+    margin: 10px 0;
+    cursor: default !important;
+}
+
+.selected {
+    color: var(--primary);
+    transform: scale(1.02);
+}

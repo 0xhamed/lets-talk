@@ -1,0 +1,19 @@
+#test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+}
+
+@media (max-width:600px) {
+    #test {
+        width: 100%
+    }
+}
+
+#test_options {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 50px;
+}

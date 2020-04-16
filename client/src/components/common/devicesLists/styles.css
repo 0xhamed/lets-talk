@@ -1,0 +1,26 @@
+.devices_lists {
+  margin-top: 50px;
+}
+
+.devices_lists>div:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+#room .devices_lists {
+  margin: 0;
+  padding-top: 30px;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  animation: devices_lists 400ms linear;
+  z-index: 10;
+}
+
+@keyframes devices_lists {
+  0% {
+    top: -300px;
+  }
+  100% {
+    top: 0;
+  }
+}
