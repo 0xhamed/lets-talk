@@ -8,8 +8,6 @@ I developed the app using these technologies
 
 `WebRTC, React.js, Node.js, Socket.io, Redis, HTML/CSS`
 
-If you encounter any unexpected behaviour, feel free to send an email to mohamed@hamedd.com
-
 ## Features
 
 - P2P Secure - Fully Encrypted Connection
