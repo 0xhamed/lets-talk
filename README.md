@@ -1,10 +1,10 @@
-# Let's Talk - MultiParty Calls App [ [Live Version](https://letstalk.hamedd.com) ]
+# Let's Talk - MultiParty Calls App
 
 ![let's-talk](https://user-images.githubusercontent.com/54107871/79381486-594d9280-7f62-11ea-8659-32bf506b993e.png)
 
 ## Technologies
 
-I developed the app using this these technologies
+I developed the app using these technologies
 
 `WebRTC, React.js, Node.js, Socket.io, Redis, HTML/CSS`
 
@@ -32,7 +32,6 @@ If you encounter any unexpected behaviour, feel free to send an email to mohamed
 - For low spec devices going more than 3 per room isn't recommended as multiparty is implemented using mesh methodology
 - Screen sharing feature isn't available on mobile and old browsers
 - I don't recommend using the structure of this project in production
-- The live version is powered by nginx. websockets related requests are proxied to nodejs
 
 ## Setup
 
