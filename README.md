@@ -1,7 +1,5 @@
 # Let's Talk - MultiParty Calls App
 
-![let's-talk](https://user-images.githubusercontent.com/54107871/79381486-594d9280-7f62-11ea-8659-32bf506b993e.png)
-
 ## Technologies
 
 I developed the app using these technologies
